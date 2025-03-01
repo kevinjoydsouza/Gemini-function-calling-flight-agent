@@ -58,7 +58,7 @@ With the server running, you can access the API at `http://127.0.0.1:8000.`.
 **For interactive API documentation, visit `http://127.0.0.1:8000/docs`, where you can test the API endpoints directly from your browser.**
 
 ## 1. Functionality
-- The basic settings of the chatbot `Sir Gemini` is similar to what I have done in another project [Gemini Explorer](https://github.com/TommyCheng023/Gemini_Explorer).
+
   - `llm_function()`
   - way to build a vertexAI project
 ### Add Features
@@ -118,16 +118,9 @@ Therefore, I replace the parameters with <ins>criteria and db</ins> only and cha
 
 This is more convenient because you can simply update the criteria in `models.py` and you can access to the key through dot notations.
 
-- new version of the function
-<img width="1219" alt="Screen Shot 2024-03-13 at 10 19 42 PM" src="https://github.com/TommyCheng023/Gemini_Flights/assets/115842289/369b86a4-7780-4fcb-ba4a-28ec9ba45231">
 
-- test its performance
-<img width="1438" alt="Screen Shot 2024-03-13 at 10 16 19 PM" src="https://github.com/TommyCheng023/Gemini_Flights/assets/115842289/a0b1484d-ea89-4cd4-b64d-1d429b84002a">
 
-### Common Issue Solution
-1. Sometimes you may encounter `import (package) not resolved` error especially in either `tool.ipynb` or `sample.py`. There're two methods for you to check with.
-  - For macOS, press `command+shit+P` on the keyboard and search for `Python: Select Interpreter`, switch to the recommended one.
-  - For macOS, press `command+shit+P` on the keyboard and search for `Developer: Reload Windows`, click on it and wait.
+
 
 ## 3. Run The App
 To chat with `Sir Gemini`, get prepare with two terminals.
