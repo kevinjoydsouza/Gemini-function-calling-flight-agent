@@ -32,7 +32,7 @@ Before you begin, ensure you have the following installed on your system:
 - FastAPI
 - Uvicorn, an ASGI server for FastAPI
 - Google Cloud Platform
-  - view specific instructions in my other repository [Gemini Explorer](https://github.com/TommyCheng023/Gemini_Explorer)
+  - view specific instructions in my other repository 
 
 ### Virtual Environment Setup
 - build and activate an environment
